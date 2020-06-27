@@ -1,0 +1,34 @@
+{
+	"name": "apiautomation",
+	"version": "1.0.0",
+	"description": "API Automation framework with Chai and Mocha",
+	"scripts": {
+		"apitest": "mocha",
+		"apitest:junit": "mocha --reporter mocha-junit-reporter"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+		"Chai",
+		"Mocha",
+		"API Automation",
+		"json",
+		"schema",
+		"jsonschema"
+	],
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"mocha": "^7.1.1",
+		"mocha-junit-reporter": "^2.0.0"
+	},
+	"dependencies": {
+		"api": "^2.1.1",
+		"chai-json-schema": "^1.5.1",
+		"jsonschema": "^1.2.6",
+		"should": "^13.2.3",
+		"supertest": "^4.0.2"
+	}
+}
